@@ -4,34 +4,54 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<meta charset="utf-8">
+	<meta property="og:title" content>
+	<meta property="og:description" content>
+	<meta property="og:image" content="http://">
+	<meta property="og:url" content="http://<%=ogPath%>">
+	<meta property="og:tipe" content="<%=ogType%>">
 	<title>ask.it</title>
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
 </head>
 <body>
-	<header>
-		<div class="mtavari">
-
-		<img class="logo"src="picture/1.png" alt="logo.ask.it">
-		<nav>
-			<ul class="navbar-ul">
+	<div class="homepage">
+	<header class="header">
+		<div class="container">
+			<div class="header-block">
+			<div class="logo" data-aos="fade-left" data-aos-offset="50" data-aos-duration="1000" data-aos-delay="300">
+				<a href="#"><img src="picture/1.png" alt="..."></a>
+	</div>
+		<nav class="navbar">
+			<ul class="navbar-ul" data-aos="fade-left" data-aos-offset="50" data-aos-duration="1000"
+              data-aos-delay="600">
 				<li class="head">Home</li>
 				<li class="head"><span>How it works</span></li>
 				<li class="head">Features</li>
-
 				<li class="head">Partners </li>
 				<li  class="head">Events</li>
 				<li class="head">About us</li>
-				<img class="login"src="picture/2.png" alt="login">
-				<li class="log">log in </li>
-				<img  class="log1" src="picture/3.png" alt="login">
-				<li class="log1">register</li>
 			</ul>
 		</nav>
-		<div>
+		<div class="authorisation hidden-sm hidden-xs" data-aos="fade-left" data-aos-offset="50"
+            data-aos-duration="1000" data-aos-delay="900">
+            <div class="registration login">
+              <a href="#">
+                <img src="picture/2.png" alt="...">
+                <p>Log in</p>
+              </a>
+            </div>
+            <div class="registration">
+              <a href="#">
+                <img src="picture/3.png" alt="...">
+                <p>Register</p>
+              </a>
+            </div>
+          </div>
+				
+		</div>
+	</div>
 	</header>
-</div>
 <section>
 	<div class=box1>
 		<img  class="foto"src="picture/4.jpg" alt="foto">
@@ -212,6 +232,5 @@
 		</div>
 	</div>
 </section>
-fwefvbr3 iwc\
 </body>
 </html>
