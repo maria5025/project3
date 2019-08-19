@@ -27,7 +27,7 @@ body {
 .homepage .header .header-block {
       display: flex;
       justify-content: space-between;
-      align-items: center; 
+      align-items: center;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -42,7 +42,7 @@ body {
 	font-family: 'Roboto Slab', serif;
 	vertical-align: middle;
 	color: white;
-	
+
 }
 
 .navbar-ul{
@@ -55,8 +55,13 @@ body {
 	margin-left: 140px;
 }
 span{
-	font-weight: bold;
+	font-weight: 0;
 }
+.textblock{
+  display: flex;
+  align-items: center;s
+}
+
 .Live{
 	font-size: 50px;
 	display: inline-block;
@@ -124,7 +129,7 @@ span{
     margin-right: 10px;
 }
 .navbar-ul{
-	display: 
+	display:
 }
 .login{
 	display: inline-block;
@@ -136,7 +141,7 @@ span{
 	display: inline-block;
 	position: relative;
 }
-.phone{ 
+.phone{
 	display: inline-block;
 	position: absolute;
 	top:450px;
@@ -462,11 +467,47 @@ position: relative;
 	left: 100px;
 	color:red;
 }*/
+header{
+  width: 100%;
+  display: flex;
+}
+
 .container{
-	width: 50%;
+	width: 100%;
 	height: 100%;
  display: inline-block;
 }
+
+.navbar ul{
+  display: flex;
+}
+
+.navbar ul span{
+  font-weight: 0 !important ;
+}
+
+.navbar ul li{
+  color: #fff;
+  margin: 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.authorisation {
+  display: flex;
+  margin: 20px;
+}
+
+.registration{
+  margin: 0px 0px 0px 20px;
+}
+
+.registration p{
+ color: #fff;
+}
+
+
+
 .t-t{
 	font-size: 40px;
 	color:blue;
@@ -504,7 +545,7 @@ display: inline-block;
 .ricxvi1{
 	font-size: 40px;
 	color: green;
-	
+
 
 }
 .ricxvi2{
@@ -515,7 +556,7 @@ display: inline-block;
 .ricxvi3{
    font-size: 40px;
    color: grey;
-   
+
 }
 .box10{
 	display: inline-block;
@@ -573,9 +614,14 @@ color: white;
 margin-top:50px;
 
 }
+
+.mainblocktemo{
+  margin: 50px 0px 50px 0px;
+}
+
 .tire{
   width: 100px;
- 
+
   background-color: white;
   position: relative;
   -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
